@@ -1,3 +1,4 @@
+//запуск npm start / npx webpack --watch / npm run build
 import './css/styles.css';// для того, чтоб дев сервер хавал стили.
 //import html from "./index.html";
 //import photo from './imegas/logo.png';
