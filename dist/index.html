@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--<meta http-equiv="X-UA-Compatible" content="IE=Edge">-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="dist/main.css">
+<!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
+<link rel="stylesheet" media="screen and (max-width: 1300px)" href="css/styles.css">
+<title>🐶 Page </title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+	<header></header>
+	<main>
+	<div class="sliderWrapFlex">    
+<ul id="slides">
+  <li class="slide showing">
+    <h1 class="h1">hi</h1>
+    <div class="filter_img">
+       <img class="imagesSlide"src="images/photo.png">
+    </div>
+    <p class="number">Slide 1</p>
+  </li>
+  <li class="slide">
+    <div class="filter_img">
+    <img class="imagesSlide"src="images/IMG_2895.png">
+    </div>
+    <p class="number">Slide 2</p>
+  </li>
+  <li class="slide">
+    <div class="filter_img">
+    <img class="imagesSlide"src="images/IMG_2913.png">
+</div>
+    <p class="number">Slide 3</p>
+  </li>
+</ul>
+<button class="controls" id="pause">Pause</button>
+</div>	
+
+<iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/FW2x7tE2Ddg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<figure class="filter_photo">
+	<img class="photo" src="images/photo.png" alt="Photo">
+	<figcaption style="display: none;">Фотка</figcaption>
+</figure>
+
+<video controls width="400" height="300" class="videoM-3">
+       <!--видео вставляем с его расширением-->
+<source src="videos/IMG_0979.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+<!--<source src="videos/IMG_0979.webm" type="video/webm"> WebM/VP8 для Firefox4, Opera, и Chrome -->
+<!--<source src="videos/IMG_0979.ogg" type="video/ogg"> Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+<object data="video.sw" type="application/x-shockwave-flash"><!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+<param name="movie" value="video.swf">
+</object>
+</video>
+<figure class="filterShowMan">
+<figcaption style="display:none;">Снеговик</figcaption>
+</figure>
+	</main>
+	<footer>
+    <!--<script type="text/javascript" src="index.js"></script>-->
+		<script type="text/javascript" src="../dist/main.js"></script>
+	</footer>
+</body>
+</html>
