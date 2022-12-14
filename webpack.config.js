@@ -19,7 +19,7 @@ module.exports = {
     },
     plugins: [
     new MiniCssExtractPlugin(), 
-    new HtmlWebpackPlugin({template: 'src/index.html',}),
+    new HtmlWebpackPlugin({template: 'index.html',}),
     //new CleanWebpackPlugin(), 
     ],
     //devtool: 'inline-source-map',// для клина
@@ -81,7 +81,7 @@ module.exports = {
             options: {
               esModule: true,
             },
-          }, 'css-loader',
+          },'css-loader',
         ], 
       },
     ],
